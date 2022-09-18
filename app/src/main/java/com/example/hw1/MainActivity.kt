@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
                             Text(text = "*2", color = Color.Blue)
                         }
                         Spacer(modifier = Modifier.width(32.dp))
-                        var context = LocalContext.current;
+                        var context = LocalContext.current
 
                         OutlinedButton(onClick = {
                             if(number.value % 3 == 0) {
@@ -55,7 +55,6 @@ class MainActivity : ComponentActivity() {
                             }) {
                             Text(text = "/3", color = Color.Blue)
                         }
-                        //Spacer(modifier = Modifier.width(64.dp))
                     }
                 }
             }
